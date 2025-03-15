@@ -109,7 +109,7 @@ def main_menu():
         print(Fore.LIGHTYELLOW_EX + "5. Запустить поиск" + Style.RESET_ALL)
         print(Fore.LIGHTYELLOW_EX + "0. Выход" + Style.RESET_ALL)
 
-        choice = input(Fore.LIGHTYELLOW_EX + "Выберите опцию (1-7): " + Style.RESET_ALL)
+        choice = input(Fore.LIGHTYELLOW_EX + "Выберите опцию (1-5): " + Style.RESET_ALL)
 
         if choice == "1":
             ip = input(Fore.LIGHTGREEN_EX + "Введите IP-адрес: " + Style.RESET_ALL)

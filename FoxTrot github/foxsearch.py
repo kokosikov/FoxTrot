@@ -80,7 +80,7 @@ def main_menu():
         print(Fore.RED + "5. Поиск по таможне " + Style.RESET_ALL)
         print(Fore.RED + "6. Выход" + Style.RESET_ALL)
 
-        choice = input(Fore.WHITE + "Выберите опцию (1-3): " + Style.RESET_ALL)
+        choice = input(Fore.WHITE + "Выберите опцию (1-6): " + Style.RESET_ALL)
 
         if choice == "1":
             fio = input(Fore.LIGHTGREEN_EX + "Введите Данные для поиска: " + Style.RESET_ALL)
